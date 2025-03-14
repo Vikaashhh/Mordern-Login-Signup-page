@@ -1,12 +1,61 @@
-# React + Vite
+# Modern Login/Signup Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually appealing and functional login/signup page with a modern UI and smooth user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🎨 **Design Elements**
+- Soft gradient background (indigo to purple to teal)
+- Clean white card with subtle shadows
+- Rounded corners and floating decorative shapes
+- Modern purple and indigo color scheme
+- Smooth transitions and hover effects
 
-## Expanding the ESLint configuration
+### 🛠 **Functionality**
+- Toggle between **Login** and **Signup** views
+- Form validation support
+- Social login options with **Google** and **Facebook**
+- "Remember me" checkbox for login
+- "Forgot password?" link
+- Terms of Service & Privacy Policy links
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🏗 **UI Components**
+- **Header** section with a dynamic welcome message based on form type
+- **Social login buttons** with icons and hover states
+- **Divider** with "or continue with" text
+- **Form fields** dynamically change based on login/signup mode:
+  - 📧 **Email field** (both views)
+  - 🔒 **Password field** (both views)
+  - 🧑 **Name field** (signup only)
+  - 🔑 **Confirm password field** (signup only)
+  - ✅ **Remember me checkbox** (login only)
+  - ❓ **Forgot password? link** (login only)
+- **Submit button** with gradient background
+- **Toggle link** to switch between login and signup
+- **Terms acceptance text** at the bottom
+
+## 🎨 **Color Palette**
+- **Primary Colors:** Purple & Indigo
+- **Background:** Soft gradient (indigo → purple → teal)
+- **Form fields:** Light gray background for contrast
+- **Text & Buttons:** White and soft grays for a contemporary look
+
+## 🖱 **User Experience & Accessibility**
+- All interactive elements have **hover effects** and **focus indicators**
+- Proper contrast for readability
+- Smooth transitions for better UI experience
+
+
+## 🛠 **Tech Stack**
+- **TailwindCSS** (for styling & layout)
+- **ReactJS** (optional if you want to integrate into a React project)
+
+## 🔧 **Installation & Usage**
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Vikaashhh/React-product-page.git
+2. Navigate to the project folder:
+   ```sh
+   cd React-product-page
+
+Made with ❤️ by Vikash Joshi 🚀
